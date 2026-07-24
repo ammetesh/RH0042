@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Reports
+reports/
+
+# Models
+models/
+*.joblib
+*.pkl
+
+# Datasets (optional)
+datasets/*.csv
+datasets/*.xlsx
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Type Checkers
+.mypy_cache/
+
+# Linters
+.ruff_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
