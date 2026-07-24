@@ -1,0 +1,16 @@
+import api from "./api";
+import { AuditResponse } from "@/types/audit";
+
+export async function runAudit(
+  datasetId: string
+): Promise<AuditResponse> {
+
+  const response = await api.post<AuditResponse>(
+    "/audit",
+    {
+      dataset_id: datasetId,
+    }
+  );
+
+  return response.data;
+}
