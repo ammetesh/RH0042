@@ -1,0 +1,36 @@
+    confidence = round(
+        (
+            entropy +
+            uniformity +
+            randomness +
+            (100 if runs_passed else 60) +
+            max(0, 100 - abs(serial) * 100)
+        ) / 5,
+        2,
+    )
+
+    return {
+        "audit_timestamp": datetime.utcnow(),
+        "draws_analyzed": draws,
+        "numbers_analyzed": numbers,
+        "health_score": round(health, 2),
+        "confidence_score": confidence,
+        "overall_grade": grade,
+        "risk_level": risk,
+        "summary": (
+            "Historical draw data exhibits statistically healthy randomness."
+            if grade in ("A+", "A")
+            else "Historical draw data shows statistical irregularities."
+        ),
+        "tests": tests,
+        "trends": {
+            "entropy": "? Stable",
+            "runs": "? Stable",
+            "serial": "? Stable",
+            "uniformity": "? Stable",
+            "randomness": "? Stable"
+        },
+        "strengths": strengths,
+        "warnings": warnings,
+        "recommendation": "Continue monitoring future draws for long-term statistical consistency."
+    }
