@@ -30,4 +30,8 @@ def randomness_score(draws: list[Draw]):
         "status": status,
         "chi_square_p_value": round(chi["p_value"], 4),
         "unique_numbers_drawn": unique_numbers
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0

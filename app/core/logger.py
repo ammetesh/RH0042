@@ -42,4 +42,8 @@ def configure_logger() -> None:
 
 configure_logger()
 
+<<<<<<< HEAD
 __all__ = ["logger"]
+=======
+__all__ = ["logger"]
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0

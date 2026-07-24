@@ -22,6 +22,7 @@ class DrawService:
 
     def delete_draw(self, draw_id: int):
         return self.repository.delete(draw_id)
+<<<<<<< HEAD
 
     def get_all_numbers(self) -> list[int]:
         """
@@ -46,3 +47,5 @@ class DrawService:
                 numbers.append(draw.bonus_ball)
 
         return numbers
+=======
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0

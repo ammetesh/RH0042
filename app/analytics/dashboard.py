@@ -17,4 +17,8 @@ def dashboard_summary(draws):
             "even": oddeven["even"]
         },
         "total_draws": len(draws)
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0

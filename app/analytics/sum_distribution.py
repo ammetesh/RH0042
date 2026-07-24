@@ -27,4 +27,8 @@ def sum_distribution(draws: list[Draw]):
         "maximum_sum": max(sums),
         "average_sum": round(sum(sums) / len(sums), 2),
         "draw_sums": sums
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿from sqlalchemy.orm import Session
+=======
+from sqlalchemy.orm import Session
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0
 
 from app.models.draw import Draw
 from app.schemas.draw import DrawCreate
@@ -18,9 +22,12 @@ class DrawRepository:
         return db_draw
 
     def create_many(self, draws: list[DrawCreate]):
+<<<<<<< HEAD
         # Replace existing dataset
         self.db.query(Draw).delete()
 
+=======
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0
         db_draws = [Draw(**draw.model_dump()) for draw in draws]
 
         self.db.add_all(db_draws)

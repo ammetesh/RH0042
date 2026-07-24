@@ -9,4 +9,8 @@ class LotteryConfig:
     has_bonus_ball: bool = True
 
 
+<<<<<<< HEAD
 LOTTERY = LotteryConfig()
+=======
+LOTTERY = LotteryConfig()
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0

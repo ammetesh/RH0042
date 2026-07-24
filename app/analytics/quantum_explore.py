@@ -23,4 +23,8 @@ def quantum_explore(draws, count=5):
     return {
         "message": "Quantum-inspired exploratory candidates (not predictions).",
         "candidates": suggestions
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0

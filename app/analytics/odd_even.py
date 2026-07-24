@@ -27,4 +27,8 @@ def odd_even_analysis(draws: list[Draw]):
         "even": even,
         "odd_percentage": round((odd / total) * 100, 2) if total else 0,
         "even_percentage": round((even / total) * 100, 2) if total else 0,
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0

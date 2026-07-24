@@ -40,4 +40,8 @@ def chi_square_test(draws: list[Draw]):
         "degrees_of_freedom": len(observed) - 1,
         "expected_frequency": round(expected[0], 4),
         "total_observations": total_observations,
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0

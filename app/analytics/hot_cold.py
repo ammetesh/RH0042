@@ -32,4 +32,8 @@ def hot_cold_numbers(draws: list[Draw], top: int = 10):
             {"number": n, "frequency": f}
             for n, f in cold
         ]
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0

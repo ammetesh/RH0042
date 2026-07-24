@@ -13,4 +13,8 @@ def generate_audit(draws):
         "hot_cold": hot_cold_numbers(draws),
         "sum_distribution": sum_distribution(draws),
         "frequency": calculate_frequency(draws)
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0

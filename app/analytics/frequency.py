@@ -25,4 +25,8 @@ def calculate_frequency(draws: list[Draw]):
     ):
         frequency[number] = counter.get(number, 0)
 
+<<<<<<< HEAD
     return frequency
+=======
+    return frequency
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0

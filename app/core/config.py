@@ -46,4 +46,8 @@ def get_settings() -> Settings:
     return settings
 
 
+<<<<<<< HEAD
 settings = get_settings()
+=======
+settings = get_settings()
+>>>>>>> 4222929421436f73d6267f7ff43ec8728a6ffbd0
