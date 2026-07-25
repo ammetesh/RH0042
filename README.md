@@ -1,100 +1,203 @@
-# 🎱 The 51st Ball – Quantum Randomness Auditor
+# Quantum Randomness Auditor
 
-The 51st Ball is a web-based analytics platform that evaluates the randomness of historical number draw datasets using statistical analysis and quantum-inspired techniques. It provides visual insights, randomness validation, and statistically balanced candidate recommendations through an interactive dashboard.
+## AI-powered Randomness Verification and Analysis Platform
 
----
-
-## ❓ Problem Statement
-
-Verifying the fairness and randomness of historical number draw datasets is challenging through manual inspection. This project automates statistical validation, identifies patterns and anomalies, and presents actionable insights through an intuitive dashboard.
+![Project Banner](./assets/banner.png)
 
 ---
 
-## ✨ Features
+# Team Details
 
-- **CSV Upload** – Import historical number draw datasets for analysis.
-- **Frequency Analysis** – Displays the occurrence frequency of each number.
-- **Chi-Square Test** – Evaluates how closely the dataset follows a uniform distribution.
-- **Hot & Cold Numbers** – Identifies the most and least frequently occurring numbers.
-- **Odd & Even Analysis** – Analyzes the balance between odd and even values.
-- **Sum Distribution** – Examines the distribution of total values in each draw.
-- **Randomness Score** – Generates an overall randomness rating for the dataset.
-- **Audit Report** – Summarizes statistical findings and randomness observations.
-- **Possible Outcome Prediction** – Recommends statistically balanced candidate combinations based on historical trends.
-- **Quantum Explore** – Explores candidate combinations using quantum-inspired techniques.
-- **Interactive Dashboard** – Presents analytics through responsive charts and visualizations.
+## Team Name
 
----
+**Debug Dynasty**
 
-## ⚛️ Quantum Principles Used
+## Team Members & Responsibilities
 
-- **Quantum Superposition (Inspired)** – Explores multiple candidate combinations before selecting the most suitable ones.
-- **Quantum Randomness** – Uses principles of unpredictability as inspiration for randomness evaluation.
-- **Probability-Based Candidate Selection** – Ranks candidate combinations using statistical probability.
-- **Measurement Analogy** – Selects the highest-ranked candidates after analysis, similar to quantum measurement.
-- **Statistical Entropy** – Measures the unpredictability of historical datasets.
+| Member | Responsibility |
+|---|---|
+| Agheleish | Backend Development & System Integration |
+| Ammetesh | Server Management & Project Planning |
+| Anbu Pravin | UI / Frontend Development |
+| Joel Raj | Database Setup & Management |
+| Sajan Raj | API Planning & Development |
+| Sundaram | Dataset Collection & Data Preparation |
 
 ---
 
-## 🛠️ Tech Stack
+# Problem Statement
 
-### Backend
-- FastAPI
-- PostgreSQL
-- SQLAlchemy
-- Alembic
-- Pandas
-- SciPy
-- scikit-learn
+Randomness plays an important role in modern systems such as:
 
-### Frontend
-- HTML5
-- CSS3
-- JavaScript (ES6)
+- Cybersecurity
+- Cryptography
+- Online gaming
+- Simulations
+- Digital applications
 
----
+However, random data is usually accepted without verification.
 
-## 🚀 Getting Started
+A sequence may appear random while containing:
 
-Clone the repository:
+- Hidden patterns
+- Statistical bias
+- Uneven distribution
+- Predictable behaviour
 
-```bash
-git clone https://github.com/<your-username>/the-51st-ball.git
-cd the-51st-ball
-```
+Poor randomness can affect fairness, reliability, and security.
 
-Start the backend:
+## Our Objective
 
-```bash
-uvicorn app.main:app --reload
-```
-
-Open the frontend using a local server (e.g., VS Code Live Server).
+To develop a platform that can analyze random sequences, detect anomalies, measure randomness quality, and generate an understandable audit report.
 
 ---
 
-## 📂 Project Structure
+# Solution
 
-```
-the-51st-ball/
-├── backend/
-├── frontend/
-├── docs/
-└── README.md
-```
+## Quantum Randomness Auditor
 
----
+Quantum Randomness Auditor is an AI-powered randomness verification platform that evaluates whether a given dataset behaves like a truly random process.
 
-## 📌 Future Enhancements
+The system does not predict future values.
 
-- AI-assisted randomness insights
-- Advanced statistical validation methods
-- Exportable audit reports
-- Enhanced visualization dashboard
-- Cloud deployment and authentication
+Instead, it answers:
+
+> "How random and reliable is this sequence?"
+
+The platform combines multiple statistical techniques to generate a randomness score and provide explainable insights.
 
 ---
 
-## 📄 License
+# Features
 
-This project is licensed under the **MIT License**.
+## Dataset Input
+
+- CSV dataset upload
+- Manual sequence input
+- Data validation
+- Dataset preprocessing
+
+
+## Randomness Analysis
+
+### Entropy Analysis
+
+Measures the uncertainty and unpredictability present in the data.
+
+### Frequency Analysis
+
+Checks whether values appear uniformly.
+
+### Chi-Square Testing
+
+Identifies deviation from expected distribution.
+
+### Pattern Detection
+
+Detects unusual repetitions and hidden structures.
+
+### Distribution Analysis
+
+Analyses numerical behaviour and balance of sequences.
+
+
+## Visualization
+
+- Interactive dashboard
+- Statistical graphs
+- Randomness score visualization
+- Explainable audit reports
+
+
+## User Experience
+
+- Modern AI-themed interface
+- 3D quantum visualization
+- Simple analysis workflow
+
+---
+
+# Technology Stack
+
+## Frontend
+
+| Technology | Purpose |
+|-|-|
+| React.js | User Interface |
+| TypeScript | Type Safety |
+| Tailwind CSS | Styling |
+| Three.js | 3D Visualization |
+| React Three Fiber | 3D Rendering |
+
+
+## Backend
+
+| Technology | Purpose |
+|-|-|
+| FastAPI | API Development |
+| Python | Backend Logic |
+| SQLAlchemy | Database ORM |
+
+
+## Data Analysis
+
+| Technology | Purpose |
+|-|-|
+| NumPy | Numerical Processing |
+| Pandas | Dataset Processing |
+| SciPy | Statistical Analysis |
+
+
+## Database
+
+- SQLite / PostgreSQL
+
+
+## Development Tools
+
+- Git
+- GitHub
+- VS Code
+
+---
+
+# System Architecture
+
+```mermaid
+flowchart TD
+
+A[User]
+-->B[React Frontend]
+
+B
+-->C[FastAPI Backend]
+
+C
+-->D[Dataset Validation]
+
+D
+-->E[Randomness Analysis Engine]
+
+E
+-->F[Entropy Analysis]
+
+E
+-->G[Statistical Tests]
+
+E
+-->H[Pattern Detection]
+
+F
+-->I[Randomness Score]
+
+G
+-->I
+
+H
+-->I
+
+I
+-->J[Dashboard Visualization]
+
+J
+-->K[Audit Report]
