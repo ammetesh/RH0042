@@ -1,4 +1,4 @@
-# Quantum Randomness Auditor
+# The 51st Ball- Quantum Randomness Auditor
 
 
 ![Project Banner](./assets/banner.png)
