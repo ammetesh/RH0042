@@ -1,6 +1,5 @@
 # Quantum Randomness Auditor
 
-## AI-powered Randomness Verification and Analysis Platform
 
 ![Project Banner](./assets/banner.png)
 
