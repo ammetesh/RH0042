@@ -150,7 +150,7 @@ Analyses numerical behaviour and balance of sequences.
 
 ## Database
 
-- SQLite / PostgreSQL
+- PostgreSQL
 
 
 ## Development Tools
