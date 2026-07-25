@@ -16,8 +16,8 @@
 
 | Member | Responsibility |
 |---|---|
-| Agheleish | Backend Development & System Integration |
-| Ammetesh | Server Management & Project Planning |
+| Agheleish | Project Planning |
+| Ammetesh | Server Management |
 | Anbu Pravin | UI / Frontend Development |
 | Joel Raj | Database Setup & Management |
 | Sajan Raj | API Planning & Development |
